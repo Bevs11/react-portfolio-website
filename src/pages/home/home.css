@@ -1,0 +1,70 @@
+.name__width {
+  width: fit-content;
+}
+
+.home__container {
+  display: flex;
+  align-items: center;
+}
+
+.home__content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.home__content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  color: var(--color-text);
+}
+
+.home__buttons-container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.home__button-aboutme {
+  background: var(--gradient-button-aboutme);
+}
+.home__button-projects {
+  background: var(--gradient-button-projects);
+}
+.home__button-cta {
+  background: var(--gradient-button-resume);
+}
+
+.button__margin {
+  margin: 1rem 1rem 0 0;
+}
+
+@media screen and (max-width: 850px) {
+  .home__container {
+    height: 88vh;
+  }
+  .home__buttons-container {
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (height: 850px) {
+  .home__buttons-container {
+    padding-bottom: 0;
+  }
+}

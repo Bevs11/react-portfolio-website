@@ -1,0 +1,89 @@
+.image {
+  width: 230px;
+  border-radius: 8px;
+}
+
+.aboutme__container {
+  display: flex;
+}
+
+.aboutme__image-container {
+  margin: 0 2rem 0 0;
+}
+
+.aboutme__content {
+  flex: 1;
+}
+
+.aboutme__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 2rem;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.aboutme__content p {
+  font-family: var(--font-family);
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 28px;
+  color: white;
+}
+
+.aboutme__desc {
+  color: white;
+}
+
+.aboutme__buttons-container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.aboutme__button-projects {
+  background: var(--gradient-button-projects);
+}
+.aboutme__button-cta {
+  background: var(--gradient-button-cta);
+}
+.aboutme__button-resume {
+  background: var(--gradient-button-resume);
+}
+.button__margin {
+  margin: 1rem 1rem 0 0;
+}
+
+@media screen and (max-width: 700px) {
+  .aboutme__container {
+    flex-direction: column;
+  }
+  .aboutme__image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutme__content p {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 50%;
+    border-radius: 5px;
+  }
+}
