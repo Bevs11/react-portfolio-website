@@ -66,7 +66,7 @@ function CTA() {
       <div className="cta__title gradient__text-cta">Contact Me</div>
       <form ref={form} className="cta__form">
         <div className="cta__form-text">
-          Need consultaion? Send me a message 😊
+          Need consultation? Send me a message 😊
         </div>
         <div className="cta__form-items">
           <label>Name</label>
@@ -110,21 +110,21 @@ function CTA() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GitHubIcon sx={{ color: "#ad65e6", fontSize: "5rem" }} />
+            <GitHubIcon sx={{ color: "#ad65e6", fontSize: "3.5rem" }} />
           </a>
           <a
             href="https://www.linkedin.com/in/beverly-mateo-426b58219/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedInIcon sx={{ color: "#fa8067", fontSize: "5rem" }} />
+            <LinkedInIcon sx={{ color: "#fa8067", fontSize: "3.5rem" }} />
           </a>
           <a
             href="https://web.facebook.com/profile.php?id=100074051976436"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FacebookIcon sx={{ color: "#d352bb", fontSize: "5rem" }} />
+            <FacebookIcon sx={{ color: "#d352bb", fontSize: "3.5rem" }} />
           </a>
         </div>
       </form>

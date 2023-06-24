@@ -2,6 +2,8 @@ import React from "react";
 import ECommerce from "../../assets/ECommerce.png";
 import JsGame from "../../assets/JsGame.png";
 import HtmlCssWebsite from "../../assets/HtmlCssWebsite.png";
+import Coslike from "../../assets/Coslike.png";
+import Pokedex from "../../assets/Pokedex.png";
 import "./projects.css";
 
 function Projects() {
@@ -73,6 +75,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        {/*HTML CSS Website */}
         <div className="projects__content-items">
           <div className="projects__content-items-img">
             <img src={HtmlCssWebsite} atl="portfolio website" />
@@ -80,6 +83,72 @@ function Projects() {
           <div className="projects__content-items-text">
             <div className="projects__content-items-title">
               HTML CSS Website
+            </div>
+            <div className="projects__content-items-desc">
+              A website that showcase skills, personality and experience of the
+              owner. This website is created using HTML and CSS.
+            </div>
+            <div className="projects__links-container">
+              <a
+                href="https://github.com/Bevs11/deployment-html-portfolio"
+                className="projects__links-github projects_links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://beverly-html-website.netlify.app/"
+                className="projects__links-website projects_links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+        </div>
+        {/*Coslike */}
+        <div className="projects__content-items">
+          <div className="projects__content-items-img">
+            <img src={Coslike} atl="portfolio website" />
+          </div>
+          <div className="projects__content-items-text">
+            <div className="projects__content-items-title">
+              Coslike App Full Stack
+            </div>
+            <div className="projects__content-items-desc">
+              A website that showcase skills, personality and experience of the
+              owner. This website is created using HTML and CSS.
+            </div>
+            <div className="projects__links-container">
+              <a
+                href="https://github.com/Bevs11/deployment-html-portfolio"
+                className="projects__links-github projects_links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://beverly-html-website.netlify.app/"
+                className="projects__links-website projects_links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+        </div>
+        {/*Pokedex */}
+        <div className="projects__content-items">
+          <div className="projects__content-items-img">
+            <img src={Pokedex} atl="portfolio website" />
+          </div>
+          <div className="projects__content-items-text">
+            <div className="projects__content-items-title">
+              Pokedex App Full Stack
             </div>
             <div className="projects__content-items-desc">
               A website that showcase skills, personality and experience of the

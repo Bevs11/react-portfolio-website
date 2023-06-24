@@ -1,9 +1,18 @@
 .header__container {
+  z-index: 1;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(4, 12, 30);
+  background-color: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
 
-  padding: 2.5rem 2rem;
+  padding: 1rem 2rem;
   width: 100%;
 }
 .header__logo-container {
@@ -95,6 +104,10 @@
 }
 
 @media screen and (max-width: 550px) {
+  .header__container {
+    padding: 0.5rem 2rem;
+  }
+
   .header__navbar {
     padding: 2rem;
   }

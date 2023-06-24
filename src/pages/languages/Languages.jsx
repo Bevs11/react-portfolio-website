@@ -7,7 +7,9 @@ import git from "../../assets/git.png";
 import reactjs from "../../assets/reactjs.png";
 import nodejs from "../../assets/nodejs.png";
 import mongodb from "../../assets/mongodb.png";
-
+import expressjs from "../../assets/expressjs.png";
+import materialui from "../../assets/materialui.png";
+import sass from "../../assets/sass.png";
 const Languages = () => {
   return (
     <div className="languages__container section__padding">
@@ -42,6 +44,18 @@ const Languages = () => {
         <div className="languages__content-item">
           <img className="icons" src={mongodb} alt="MongoDB" />
           <p className="languages__content-item-text">MongoDB</p>
+        </div>
+        <div className="languages__content-item">
+          <img className="icons" src={expressjs} alt="ExpressJs" />
+          <p className="languages__content-item-text">ExpressJS</p>
+        </div>
+        <div className="languages__content-item">
+          <img className="icons" src={materialui} alt="Material UI" />
+          <p className="languages__content-item-text">Material UI</p>
+        </div>
+        <div className="languages__content-item">
+          <img className="icons" src={sass} alt="Sass" />
+          <p className="languages__content-item-text">Sass</p>
         </div>
       </div>
     </div>

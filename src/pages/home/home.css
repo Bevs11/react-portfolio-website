@@ -5,6 +5,8 @@
 .home__container {
   display: flex;
   align-items: center;
+  padding-top: 4rem;
+  margin-top: 6rem;
 }
 
 .home__content h1 {
@@ -56,10 +58,11 @@
 
 @media screen and (max-width: 850px) {
   .home__container {
-    height: 88vh;
+    margin-top: 0;
+    height: 95vh;
   }
   .home__buttons-container {
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
   }
 }
 
