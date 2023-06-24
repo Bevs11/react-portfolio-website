@@ -118,12 +118,14 @@ function Projects() {
               Coslike App Full Stack
             </div>
             <div className="projects__content-items-desc">
-              A website that showcase skills, personality and experience of the
-              owner. This website is created using HTML and CSS.
+              A social media website that allows users to register and login.
+              Users can posts and see other users' posts. This website is
+              created using React and styled with Sass. The backend is created
+              using Express Js and MongoDB.
             </div>
             <div className="projects__links-container">
               <a
-                href="https://github.com/Bevs11/deployment-html-portfolio"
+                href="https://github.com/Bevs11/deployment-coslike/tree/develop"
                 className="projects__links-github projects_links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -131,7 +133,7 @@ function Projects() {
                 Github
               </a>
               <a
-                href="https://beverly-html-website.netlify.app/"
+                href="https://coslike-app.netlify.app/"
                 className="projects__links-website projects_links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -151,12 +153,14 @@ function Projects() {
               Pokedex App Full Stack
             </div>
             <div className="projects__content-items-desc">
-              A website that showcase skills, personality and experience of the
-              owner. This website is created using HTML and CSS.
+              A Pokedex App that allows users to view Pokemons with their name
+              and type. Users click on the type to see more pokemons of that
+              type. This website is created using React and styled with CSS. The
+              backend is created using Express Js and MongoDB.
             </div>
             <div className="projects__links-container">
               <a
-                href="https://github.com/Bevs11/deployment-html-portfolio"
+                href="https://github.com/Bevs11/react-pokedex-app"
                 className="projects__links-github projects_links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -164,7 +168,7 @@ function Projects() {
                 Github
               </a>
               <a
-                href="https://beverly-html-website.netlify.app/"
+                href="https://pokedex-react-express.netlify.app/"
                 className="projects__links-website projects_links"
                 target="_blank"
                 rel="noopener noreferrer"
