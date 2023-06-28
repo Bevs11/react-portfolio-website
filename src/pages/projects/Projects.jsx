@@ -85,8 +85,8 @@ function Projects() {
               HTML CSS Website
             </div>
             <div className="projects__content-items-desc">
-              A website that showcase skills, personality and experience of the
-              owner. This website is created using HTML and CSS.
+              A website that showcases the skills, personality and experience of
+              the owner. This website is created using HTML and CSS.
             </div>
             <div className="projects__links-container">
               <a
@@ -118,10 +118,9 @@ function Projects() {
               Coslike App Full Stack
             </div>
             <div className="projects__content-items-desc">
-              A social media website that allows users to register and login.
-              Users can posts and see other users' posts. This website is
-              created using React and styled with Sass. The backend is created
-              using Express Js and MongoDB.
+              A social media website that allows users to post and see other
+              users' posts. This website is created using React and styled with
+              Sass. The backend is created using Express Js and MongoDB.
             </div>
             <div className="projects__links-container">
               <a
@@ -154,7 +153,7 @@ function Projects() {
             </div>
             <div className="projects__content-items-desc">
               A Pokedex App that allows users to view Pokemons with their name
-              and type. Users click on the type to see more pokemons of that
+              and type. Users can click on the type to see more pokemons of that
               type. This website is created using React and styled with CSS. The
               backend is created using Express Js and MongoDB.
             </div>
