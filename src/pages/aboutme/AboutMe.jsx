@@ -35,7 +35,7 @@ const AboutMe = () => {
             </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1DDQ5ldxBNJZtv61QN_jKZ8jaF9Cq0UeG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ouMJh6D8SRU0c40rtfdBD0Z_1glw6OZi/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
