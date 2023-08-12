@@ -27,7 +27,7 @@ function Projects() {
             </div>
             <div className="projects__links-container">
               <a
-                href="https://github.com/Bevs11/deployment-react-ecommerce"
+                href="https://github.com/Bevs11/shop-soap-boulangerie"
                 className="projects__links-github projects_links"
                 target="_blank"
                 rel="noopener noreferrer"
